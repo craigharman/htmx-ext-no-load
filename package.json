@@ -1,0 +1,27 @@
+{
+  "name": "htmx-ext-no-load",
+  "version": "0.0.1",
+  "description": "Stop htmx from retrieving data if request url === current url",
+  "main": "no-load.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craigharman/htmx-ext-no-load.git"
+  },
+  "keywords": [
+    "htmx",
+    "do",
+    "not",
+    "load",
+    "no-load",
+    "block"
+  ],
+  "author": "Craig Harman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/craigharman/htmx-ext-no-load/issues"
+  },
+  "homepage": "https://github.com/craigharman/htmx-ext-no-load#readme"
+}
