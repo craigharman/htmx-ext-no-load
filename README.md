@@ -44,4 +44,12 @@ import htmx from 'htmx.org'
 import 'htmx-ext-no-load'
 ```
 
-That's it! Any time a user tries to load data that would be from the current browser path it will be intercepted and not loaded.
+Any time a user tries to load data that would be from the current browser path it will be intercepted and not loaded.
+
+If you want to check individual targets (that aren't page URLs) then you can add to trigger elements:
+
+```html
+<body>
+    <button hx-get="/your-endpoint" hx-ext="no-load">Click me</button>
+</body>
+```

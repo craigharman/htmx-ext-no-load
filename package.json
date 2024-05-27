@@ -1,6 +1,6 @@
 {
   "name": "htmx-ext-no-load",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Stop htmx from retrieving data if request url === current url",
   "main": "no-load.js",
   "scripts": {
